@@ -1,0 +1,25 @@
+{
+  "name": "css-base",
+  "version": "1.0.0",
+  "author": "gorango",
+  "license": "MIT",
+  "scripts": {
+    "dev": "mkdir -p css && postcss src/index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -u postcss-color-function -u postcss-remove-root -u autoprefixer -o css/base.css",
+    "minify": "postcss css/base.css -u cssnano -o css/base.min.css",
+    "build": "npm run dev && npm run minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.5",
+    "cssnano": "^3.10.0",
+    "cssstats": "^3.1.0",
+    "postcss": "^6.0.13",
+    "postcss-calc": "^6.0.1",
+    "postcss-cli": "^4.1.1",
+    "postcss-color-function": "^4.0.0",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-properties": "^6.2.0",
+    "postcss-import": "^11.0.0",
+    "postcss-remove-root": "^0.0.2",
+    "postcss-reporter": "^5.0.0"
+  }
+}
