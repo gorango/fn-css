@@ -23,6 +23,7 @@
 @import 'core/position';
 @import 'core/border';
 @import 'core/hide';
+@import 'core/opacity';
 
 @import 'modules/responsive-margin';
 @import 'modules/responsive-padding';

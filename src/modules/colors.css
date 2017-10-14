@@ -1,5 +1,5 @@
 
-@import 'palette';
+@import '../palette';
 
 .black  { color: var(--black) }
 .gray   { color: var(--gray) }

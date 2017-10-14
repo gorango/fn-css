@@ -3,37 +3,45 @@
 .font-size-inherit { font-size: inherit }
 .text-decoration-none { text-decoration: none }
 
+.fs14 { font-size: 14px }
+.fs16 { font-size: 16px }
+.fs18 { font-size: 18px }
+.fs24 { font-size: 24px }
+.fs32 { font-size: 32px }
+.fs48 { font-size: 48px }
+.fs64 { font-size: 64px }
+
 .bold    { font-weight: var(--bold-font-weight, bold) }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
+.underline { text-decoration: underline }
 
-.left-align   { text-align: left }
-.center       { text-align: center }
-.right-align  { text-align: right }
-.justify      { text-align: justify }
+.tl { text-align: left }
+.tc { text-align: center }
+.tr { text-align: right }
+.tj { text-align: justify }
 
 .nowrap { white-space: nowrap }
 .break-word { word-wrap: break-word }
 
-.line-height-1 { line-height: var(--line-height-1) }
-.line-height-2 { line-height: var(--line-height-2) }
-.line-height-3 { line-height: var(--line-height-3) }
-.line-height-4 { line-height: var(--line-height-4) }
+.lh1 { line-height: var(--line-height-1) }
+.lh2 { line-height: var(--line-height-2) }
+.lh3 { line-height: var(--line-height-3) }
+.lh4 { line-height: var(--line-height-4) }
 
 .list-style-none { list-style: none }
-.underline { text-decoration: underline }
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
 
 .truncate {
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.list-reset {
-  list-style: none;
-  padding-left: 0;
 }
 
 :root {

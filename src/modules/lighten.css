@@ -1,8 +1,8 @@
 
-.bg-lighten-1 { background-color: var(--lighten-1) }
-.bg-lighten-2 { background-color: var(--lighten-2) }
-.bg-lighten-3 { background-color: var(--lighten-3) }
-.bg-lighten-4 { background-color: var(--lighten-4) }
+.bgl1 { background-color: var(--lighten-1) }
+.bgl2 { background-color: var(--lighten-2) }
+.bgl3 { background-color: var(--lighten-3) }
+.bgl4 { background-color: var(--lighten-4) }
 
 :root {
   --lighten-1: rgba(255, 255, 255, .0625);

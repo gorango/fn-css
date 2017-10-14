@@ -1,8 +1,8 @@
 
-.bg-darken-1 { background-color: var(--darken-1) }
-.bg-darken-2 { background-color: var(--darken-2) }
-.bg-darken-3 { background-color: var(--darken-3) }
-.bg-darken-4 { background-color: var(--darken-4) }
+.bgd1 { background-color: var(--darken-1) }
+.bgd2 { background-color: var(--darken-2) }
+.bgd3 { background-color: var(--darken-3) }
+.bgd4 { background-color: var(--darken-4) }
 
 :root {
   --darken-1: rgba(0, 0, 0, .0625);

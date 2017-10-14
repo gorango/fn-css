@@ -1,5 +1,5 @@
 
-@import 'palette';
+@import '../palette';
 
 .highlight-dark .hljs {
   color: white;
