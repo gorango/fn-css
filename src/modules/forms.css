@@ -1,4 +1,6 @@
 
+fieldset { border: none }
+
 .label {
   font-size: .875rem;
   font-weight: bold;
