@@ -1,6 +1,7 @@
 {
   "name": "css-base",
-  "version": "1.0.0",
+  "description": "Functional CSS Framework",
+  "version": "1.0.1",
   "author": "gorango",
   "license": "MIT",
   "scripts": {

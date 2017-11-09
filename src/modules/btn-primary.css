@@ -1,4 +1,6 @@
 
+@import '../palette';
+
 .btn-primary {
   color: var(--button-color);
   background-color: var(--button-background-color);
@@ -21,8 +23,7 @@
 }
 
 :root {
-  --blue: #0074d9;
-  --button-color: #fff;
+  --button-color: var(--white);
   --button-background-color: var(--blue);
   --border-radius: 3px;
   --darken-1: rgba(0, 0, 0, .0625);
