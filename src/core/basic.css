@@ -23,7 +23,10 @@ img {
 
 svg { max-height: 100% }
 
-a { color: #07c }
+a {
+  color: #07c;
+  cursor: pointer;
+}
 
 h1, h2, h3,
 h4, h5, h6 {
