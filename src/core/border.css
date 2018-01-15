@@ -1,42 +1,60 @@
 
-.border {
+.ba {
   border-style: solid;
-  border-width: var(--border-width);
+  border-width: var(--border-width-1);
 }
 
-.border-top {
+.bt {
   border-top-style: solid;
-  border-top-width: var(--border-width);
+  border-top-width: var(--border-width-1);
 }
 
-.border-right {
+.br {
   border-right-style: solid;
-  border-right-width: var(--border-width);
+  border-right-width: var(--border-width-1);
 }
 
-.border-bottom {
+.bb {
   border-bottom-style: solid;
-  border-bottom-width: var(--border-width);
+  border-bottom-width: var(--border-width-1);
 }
 
-.border-left {
+.bl {
   border-left-style: solid;
-  border-left-width: var(--border-width);
+  border-left-width: var(--border-width-1);
 }
 
-.border-none { border: 0 }
+.bn { border: 0 }
 
-.rounded { border-radius: var(--border-radius) }
-.circle  { border-radius: 50% }
+.bw1 { border-width: var(--border-width-1) }
+.bw2 { border-width: var(--border-width-2) }
+.bw3 { border-width: var(--border-width-3) }
+.bw4 { border-width: var(--border-width-4) }
+.bw5 { border-width: var(--border-width-5) }
 
-.rounded-top    { border-radius: var(--border-radius) var(--border-radius) 0 0 }
-.rounded-right  { border-radius: 0 var(--border-radius) var(--border-radius) 0 }
-.rounded-bottom { border-radius: 0 0 var(--border-radius) var(--border-radius) }
-.rounded-left   { border-radius: var(--border-radius) 0 0 var(--border-radius) }
+.bra0 { border-radius: 0 }
+.bra1 { border-radius: var(--border-radius-1) }
+.bra2 { border-radius: var(--border-radius-2) }
 
-.not-rounded { border-radius: 0 }
+.brac { border-radius: 50% }
+
+.brt1 { border-radius: var(--border-radius-1) var(--border-radius-1) 0 0 }
+.brr1 { border-radius: 0 var(--border-radius-1) var(--border-radius-1) 0 }
+.brb1 { border-radius: 0 0 var(--border-radius-1) var(--border-radius-1) }
+.brl1 { border-radius: var(--border-radius-1) 0 0 var(--border-radius-1) }
+
+.brt2 { border-radius: var(--border-radius-2) var(--border-radius-2) 0 0 }
+.brr2 { border-radius: 0 var(--border-radius-2) var(--border-radius-2) 0 }
+.brb2 { border-radius: 0 0 var(--border-radius-2) var(--border-radius-2) }
+.brl2 { border-radius: var(--border-radius-2) 0 0 var(--border-radius-2) }
 
 :root {
-  --border-width: 1px;
-  --border-radius: 3px;
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 3px;
+  --border-width-4: 4px;
+  --border-width-5: 5px;
+
+  --border-radius-1: 2px;
+  --border-radius-2: 4px;
 }

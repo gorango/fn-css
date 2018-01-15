@@ -1,9 +1,12 @@
 
-.inline       { display: inline }
-.block        { display: block }
-.inline-block { display: inline-block }
-.table        { display: table }
-.table-cell   { display: table-cell }
+.di  { display: inline }
+.db  { display: block }
+.dib { display: inline-block }
+.dt  { display: table }
+.dtc { display: table-cell }
+
+.fl { float: left }
+.fr { float: right }
 
 .ofh  { overflow: hidden }
 .ofs  { overflow: scroll }
@@ -15,31 +18,25 @@
 .ofxa { overflow-x: auto }
 .ofya { overflow-y: auto }
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table
-}
-.clearfix:after { clear: both }
+.ofcw { min-width: min-content }
+.ofch { min-height: min-content }
 
-.left  { float: left }
-.right { float: right }
-
-.fit { max-width: 100% }
+.cf:before, .cf:after { content: " "; display: table }
+.cf:after { clear: both }
 
 .w100 { width: 100% }
 .h100 { height: 100% }
 
-.mw1 { max-width: var(--width-1) }
-.mw2 { max-width: var(--width-2) }
-.mw3 { max-width: var(--width-3) }
-.mw4 { max-width: var(--width-4) }
-
-.border-box { box-sizing: border-box }
+.mw1 { width: var(--width-1) }
+.mw2 { width: var(--width-2) }
+.mw3 { width: var(--width-3) }
+.mw4 { width: var(--width-4) }
+.mw5 { width: var(--width-5) }
 
 :root {
   --width-1: 24rem;
   --width-2: 32rem;
   --width-3: 48rem;
   --width-4: 64rem;
+  --width-5: 80rem;
 }

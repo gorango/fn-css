@@ -1,0 +1,33 @@
+
+@media (--breakpoint-sm) {
+  .sm-rel { position: relative }
+  .sm-abs { position: absolute }
+  .sm-fix { position: fixed }
+
+  .sm-t0 { top: 0 }
+  .sm-r0 { right: 0 }
+  .sm-b0 { bottom: 0 }
+  .sm-l0 { left: 0 }
+}
+
+@media (--breakpoint-md) {
+  .md-rel { position: relative }
+  .md-abs { position: absolute }
+  .md-fix { position: fixed }
+
+  .md-t0 { top: 0 }
+  .md-r0 { right: 0 }
+  .md-b0 { bottom: 0 }
+  .md-l0 { left: 0 }
+}
+
+@media (--breakpoint-lg) {
+  .lg-rel { position: relative }
+  .lg-abs { position: absolute }
+  .lg-fix { position: fixed }
+
+  .lg-t0 { top: 0 }
+  .lg-r0 { right: 0 }
+  .lg-b0 { bottom: 0 }
+  .lg-l0 { left: 0 }
+}

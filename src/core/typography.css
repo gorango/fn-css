@@ -1,43 +1,62 @@
 
-.font-family-inherit { font-family: inherit }
-.font-size-inherit { font-size: inherit }
-.text-decoration-none { text-decoration: none }
-
-.fs14 { font-size: 14px }
-.fs16 { font-size: 16px }
-.fs18 { font-size: 18px }
-.fs24 { font-size: 24px }
-.fs32 { font-size: 32px }
-.fs48 { font-size: 48px }
-.fs64 { font-size: 64px }
-
-.bold    { font-weight: var(--bold-font-weight, bold) }
-.regular { font-weight: normal }
-.italic  { font-style: italic }
-.caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
-.underline { text-decoration: underline }
+h1, .h1 { font-size: var(--h1) }
+h2, .h2 { font-size: var(--h2) }
+h3, .h3 { font-size: var(--h3) }
+h4, .h4 { font-size: var(--h4) }
+h5, .h5 { font-size: var(--h5) }
+h6, .h6 { font-size: var(--h6) }
 
 .tl { text-align: left }
 .tc { text-align: center }
 .tr { text-align: right }
 .tj { text-align: justify }
 
-.nowrap { white-space: nowrap }
-.break-word { word-wrap: break-word }
+.tb { font-weight: bold }
+.tn { font-weight: normal }
+.ti { font-style: italic }
+.tc { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
+.tu { text-decoration: underline }
+.ts { text-decoration: line-through }
+
+.ffi { font-family: inherit }
+.fsi { font-size: inherit }
+.tdn { text-decoration: none }
+
+.fs8  { font-size: 8px }
+.fs10 { font-size: 10px }
+.fs12 { font-size: 12px }
+.fs14 { font-size: 14px }
+.fs16 { font-size: 16px }
+.fs18 { font-size: 18px }
+.fs20 { font-size: 20px }
+.fs24 { font-size: 24px }
+.fs28 { font-size: 28px }
+.fs32 { font-size: 32px }
+.fs36 { font-size: 36px }
+.fs48 { font-size: 48px }
+.fs64 { font-size: 64px }
+
+.fw1 { font-weight: 100 }
+.fw2 { font-weight: 200 }
+.fw3 { font-weight: 300 }
+.fw4 { font-weight: 400 }
+.fw5 { font-weight: 500 }
+.fw6 { font-weight: 600 }
+.fw7 { font-weight: 700 }
+.fw8 { font-weight: 800 }
+.fw9 { font-weight: 900 }
 
 .lh1 { line-height: var(--line-height-1) }
 .lh2 { line-height: var(--line-height-2) }
 .lh3 { line-height: var(--line-height-3) }
 .lh4 { line-height: var(--line-height-4) }
 
-.list-style-none { list-style: none }
+.lsn { list-style: none }
 
-.list-reset {
-  list-style: none;
-  padding-left: 0;
-}
+.nowrap { white-space: nowrap }
+.break-word { word-wrap: break-word }
 
-.truncate {
+.trunc {
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -49,7 +68,5 @@
   --line-height-2: 1.125;
   --line-height-3: 1.25;
   --line-height-4: 1.5;
-  --letter-spacing: 1;
-  --caps-letter-spacing: .2em;
-  --bold-font-weight: bold;
+  --caps-letter-spacing: -0.1em;
 }

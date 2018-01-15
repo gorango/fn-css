@@ -1,5 +1,5 @@
 
-.align-baseline { vertical-align: baseline }
-.align-top      { vertical-align: top }
-.align-middle   { vertical-align: middle }
-.align-bottom   { vertical-align: bottom }
+.vaba { vertical-align: baseline }
+.vat  { vertical-align: top }
+.vam  { vertical-align: middle }
+.vab  { vertical-align: bottom }

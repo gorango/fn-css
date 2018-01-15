@@ -1,6 +1,27 @@
 
 @import 'core/basic';
 
+@import 'core/typography';
+@import 'core/layout';
+@import 'core/flexbox';
+@import 'core/grid';
+@import 'core/margin';
+@import 'core/padding';
+@import 'core/position';
+@import 'core/border';
+@import 'core/align';
+@import 'core/hide';
+@import 'core/opacity';
+
+@import 'core/responsive/margin';
+@import 'core/responsive/padding';
+@import 'core/responsive/layout';
+@import 'core/responsive/position';
+@import 'core/responsive/typography';
+
+@import 'modules/colors';
+@import 'modules/background-images';
+
 @import 'modules/forms';
 @import 'modules/input-range';
 @import 'modules/progress';
@@ -10,33 +31,55 @@
 @import 'modules/btn-primary';
 @import 'modules/btn-outline';
 
-@import 'modules/media-object';
+:root {
 
-@import 'core/type-scale';
-@import 'core/typography';
-@import 'core/layout';
-@import 'core/align';
-@import 'core/margin';
-@import 'core/padding';
-@import 'core/grid';
-@import 'core/flexbox';
-@import 'core/position';
-@import 'core/border';
-@import 'core/hide';
-@import 'core/opacity';
+  /* Typography */
+  --font-size: 16px;
+  --hh: 4rem;
+  --h1: 2rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --h4: 1rem;
+  --h5: .875rem;
+  --h6: .75rem;
 
-@import 'modules/responsive-margin';
-@import 'modules/responsive-padding';
-@import 'modules/responsive-layout';
-@import 'modules/responsive-position';
-@import 'modules/responsive-typography';
-@import 'modules/responsive-type-scale';
+  /* Spacing: Margins & Padding */
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+  --space-6: 8rem;
 
-@import 'modules/colors';
-@import 'modules/background-colors';
-@import 'modules/border-colors';
-@import 'modules/darken';
-@import 'modules/lighten';
-@import 'modules/background-images';
+  /* Breakpoints */
+  @custom-media --breakpoint-xs (max-width: 32em);
+  @custom-media --breakpoint-sm (min-width: 40em);
+  @custom-media --breakpoint-md (min-width: 52em);
+  @custom-media --breakpoint-sm-md (min-width: 40em) and (max-width: 52em);
+  @custom-media --breakpoint-lg (min-width: 64em);
+  @custom-media --breakpoint-md-lg (min-width: 52em) and (max-width: 64em);
+  @custom-media --breakpoint-xl (min-width: 78em);
 
-@import 'modules/all';
+  /* Color Palette */
+
+  --black:   #111111;
+  --gray:    #AAAAAA;
+  --silver:  #DDDDDD;
+  --white:   #FFFFFF;
+
+  --aqua:    #7FDBFF;
+  --blue:    #0074D9;
+  --navy:    #001F3F;
+  --teal:    #39CCCC;
+  --green:   #2ECC40;
+  --olive:   #3D9970;
+  --lime:    #01FF70;
+
+  --yellow:  #FFDC00;
+  --orange:  #FF851B;
+  --red:     #FF4136;
+  --fuchsia: #F012BE;
+  --purple:  #B10DC9;
+  --maroon:  #85144B;
+
+}

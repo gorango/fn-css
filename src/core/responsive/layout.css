@@ -1,0 +1,60 @@
+
+@media (--breakpoint-sm) {
+  .sm-di  { display: inline }
+  .sm-db  { display: block }
+  .sm-dib { display: inline-block }
+  .sm-dt  { display: table }
+  .sm-dtc { display: table-cell }
+
+  .sm-oh { overflow: hidden }
+  .sm-os { overflow: scroll }
+  .sm-oa { overflow: auto }
+
+  .sm-fl { float: left }
+  .sm-fr { float: right }
+}
+
+@media (--breakpoint-md) {
+  .md-di  { display: inline }
+  .md-db  { display: block }
+  .md-dib { display: inline-block }
+  .md-dt  { display: table }
+  .md-dtc { display: table-cell }
+
+  .md-oh { overflow: hidden }
+  .md-os { overflow: scroll }
+  .md-oa { overflow: auto }
+
+  .md-fl { float: left }
+  .md-fr { float: right }
+}
+
+@media (--breakpoint-lg) {
+  .lg-di  { display: inline }
+  .lg-db  { display: block }
+  .lg-dib { display: inline-block }
+  .lg-dt  { display: table }
+  .lg-dtc { display: table-cell }
+
+  .lg-oh { overflow: hidden }
+  .lg-os { overflow: scroll }
+  .lg-oa { overflow: auto }
+
+  .lg-fl { float: left }
+  .lg-fr { float: right }
+}
+
+@media (--breakpoint-xl) {
+  .xl-di  { display: inline }
+  .xl-db  { display: block }
+  .xl-dib { display: inline-block }
+  .xl-dt  { display: table }
+  .xl-dtc { display: table-cell }
+
+  .xl-oh { overflow: hidden }
+  .xl-os { overflow: scroll }
+  .xl-oa { overflow: auto }
+
+  .xl-fl { float: left }
+  .xl-fr { float: right }
+}

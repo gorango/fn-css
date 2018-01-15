@@ -1,4 +1,6 @@
 
+.dn { display: none !important }
+
 .hide {
   position: absolute !important;
   height: 1px;
@@ -22,10 +24,3 @@
 @media (--breakpoint-lg) {
   .lg-hide { display: none !important }
 }
-
-.display-none { display: none !important }
-
-@custom-media --breakpoint-xs (max-width: 40em);
-@custom-media --breakpoint-sm-md (min-width: 40em) and (max-width: 52em);
-@custom-media --breakpoint-md-lg (min-width: 52em) and (max-width: 64em);
-@custom-media --breakpoint-lg (min-width: 64em);

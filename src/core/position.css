@@ -1,7 +1,7 @@
 
-.relative { position: relative }
-.absolute { position: absolute }
-.fixed    { position: fixed }
+.rel { position: relative }
+.abs { position: absolute }
+.fix { position: fixed }
 
 .t0 { top: 0 }
 .r0 { right: 0 }

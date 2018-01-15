@@ -1,6 +1,4 @@
 
-@import '../palette';
-
 .highlight-dark .hljs {
   color: white;
   -webkit-text-size-adjust: none;
