@@ -1,9 +1,10 @@
 {
-  "name": "fn-css",
+  "name": "@gorango/fn-css",
   "description": "Functional CSS Framework",
   "version": "2.0.0",
   "author": "gorango",
   "license": "MIT",
+  "main": "dist/fn.min.css",
   "scripts": {
     "dev:local": "mkdir -p dist && postcss -w src/index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -u postcss-color-function -u postcss-remove-root -u autoprefixer -o dist/fn.css",
     "dev": "npm run dev:local",
